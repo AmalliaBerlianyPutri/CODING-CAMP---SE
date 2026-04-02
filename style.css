@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Balance */
+.balance-card {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Form */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Transactions */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Card item */
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.category {
+  font-size: 12px;
+  color: #777;
+}
+
+.right {
+  text-align: right;
+}
+
+.amount {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* Delete kecil */
+.delete {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: red;
+}
